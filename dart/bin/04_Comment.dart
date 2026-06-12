@@ -1,12 +1,25 @@
 void main() {
 
-  // =====================================================
-  // Question — Comment
-  // =====================================================
+  // =======================================================================
+  // Comment =
+  // Single Line Comment
+  // Used to explain code
+  // Compiler ignores comments
+  // =======================================================================
 
+  // Area = height * width
+  
+  /* Two 
+  Comment */
+  
+  /// Three comment
+  
   double height = 10;
   double width = 20;
 
+  double Area = height * width;   // Area = height × width
+
+  print(Area);   // Output => 200
 
   // -----------------------------------------------------
   // Single Line Comment
@@ -33,7 +46,4 @@ void main() {
   /// in Dart & Flutter projects.
   /// ----------------------------------------------------
 
-  double Area = height * width;   // Area = height × width
-
-  print(Area);   // Output => 200
 }
